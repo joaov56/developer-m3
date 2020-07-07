@@ -19,7 +19,7 @@ O projeto foi desenvolvido em HTML5 CSS3 E Javascript puro por ser um bônus
 ```bash 
 
     #Clonar repositório
-    $ git clone https://github.com/joaov56/ecoleta.git
+    $ https://github.com/joaov56/developer-m3
     
     # Abrir o arquivo index.html
     $ Na pasta raiz haverá um arquivos chamado index.html, apenas abra e use
