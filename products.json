@@ -1,0 +1,58 @@
+[
+  {
+    "image": "/imagens/img_2.png",
+    "name": "Camiseta de Mescla",
+    "price": 28,
+    "parcel": "Até 3x R$9,33"
+  },
+  {
+    "image": "/imagens/img_3.png",
+    "name": "Saia em couro",
+    "price": 398,
+    "parcel": "Até 5x R$30,00"
+  },
+  {
+    "image": "/imagens/img_4.png",
+    "name": "Cardigan Tigre",
+    "price": 300,
+    "parcel": "Até 5x R$60,00"
+  },
+
+  {
+    "image": "/imagens/img_5.png",
+    "name": "Cardigan Off White",
+    "price": 100,
+    "parcel": "Até 3x R$99,00"
+  },
+  {
+    "image": "/imagens/img_6.png",
+    "name": "Body de Leopardo",
+    "price": 129.9,
+    "parcel": "Até 3x de R$43,33"
+  },
+  {
+    "image": "/imagens/img_7.png",
+    "name": "Casaco Pelos",
+    "price": 399.99,
+    "parcel": "Até 3x de R$133,33"
+  },
+  {
+    "image": "/imagens/img_8.png",
+    "name": "Cropped Stripes",
+    "price": 120,
+    "parcel": "Até 3x de R$40,00"
+  },
+  {
+    "image": "/imagens/img_9.png",
+    "name": "Camisa Transparente",
+    "price": 400,
+    "parcel": "Até 4x de R$100,00"
+  },
+
+  {
+    "image": "/imagens/img_10.png",
+    "name": "Pochete Clutch",
+    "price": 99,
+    "parcel": "Até 3x de R$99,00"
+  }
+]

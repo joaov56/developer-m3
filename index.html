@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M3 Store</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <header>
+      <div class="icons">
+        <img src="./imagens/logo-m3.png" alt="" />
+        <div class="sacola">
+          <img src="./local_mall-black-18dp.svg" alt="" class="icon" />
+          <a class="cart"></a>
+        </div>
+      </div>
+    </header>
+
+    <div id="container">
+      <!-- <aside class="responsive">
+        <h1 class="title">Blusas</h1>
+
+        <div class="cores">
+          <div class="title-group">
+            <h1>CORES</h1>
+            <p class="see_more_responsive" onclick="showColors()">X</p>
+          </div>
+          <ul hidden>
+            <li>
+              <input type="checkbox" name="amarelo" class="check" />
+              <label for="amarelo">Amarelo</label>
+            </li>
+            <li>
+              <input type="checkbox" name="azul" class="check" /><label
+                for="azul"
+                >Azul</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="branco" class="check" /><label
+                for="branco"
+                >Branco</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="cinza" class="check" /><label
+                for="cinza"
+                >Cinza</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="laranja" class="check" /><label
+                for="laranja"
+                >Laranja</label
+              >
+            </li>
+
+            <li>
+              <input type="checkbox" name="preto" class="check" /><label
+                for="preto"
+                >Preto</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="rosa" class="check" /><label
+                for="rosa"
+                >Rosa</label
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="sizes">
+          <div class="title-group">
+            <h1>Tamanho</h1>
+            <p class="see_more_responsive" onclick="showSizes()">X</p>
+          </div>
+
+          <div id="size" hidden>
+            <p class="border_off">P</p>
+            <p class="border_off">M</p>
+            <p class="border_off">G</p>
+            <p class="border_off">GG</p>
+            <p class="border_off">U</p>
+            <p class="border_off">36</p>
+            <p class="border_off">38</p>
+            <p class="border_off">40</p>
+            <p class="border_off">42</p>
+            <p class="border_off">44</p>
+            <p class="border_off">46</p>
+          </div>
+        </div>
+
+        <div class="prices">
+          <div class="title-group">
+            <h1>Faixa de preço</h1>
+            <p class="see_more">X</p>
+          </div>
+          <ul>
+            <li>
+              <input type="checkbox" name="first" class="check_price" />
+              <label for="first">de R$0 até R$50</label>
+            </li>
+            <li>
+              <input type="checkbox" name="second" class="check_price" /><label
+                for="second"
+                >de R$51 até R$150</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="third" class="check_price" /><label
+                for="third"
+                >de R$151 até R$300</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="forth" class="check_price" /><label
+                for="forth"
+                >de R$301 até R$500</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="fifth" class="check_price" /><label
+                for="fifth"
+                >a partir de R$501</label
+              >
+            </li>
+          </ul>
+        </div>
+      </aside> -->
+
+      <aside id="menu">
+        <h1 class="title">Blusas</h1>
+
+        <div class="cores">
+          <h1>CORES</h1>
+          <ul>
+            <li>
+              <input type="checkbox" name="amarelo" class="check" />
+              <label for="amarelo">Amarelo</label>
+            </li>
+            <li>
+              <input type="checkbox" name="azul" class="check" /><label
+                for="azul"
+                >Azul</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="branco" class="check" /><label
+                for="branco"
+                >Branco</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="cinza" class="check" /><label
+                for="cinza"
+                >Cinza</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="laranja" class="check" /><label
+                for="laranja"
+                >Laranja</label
+              >
+            </li>
+            <div class="colors_more" hidden>
+              <li>
+                <input type="checkbox" name="preto" class="check" /><label
+                  for="preto"
+                  >Preto</label
+                >
+              </li>
+              <li>
+                <input type="checkbox" name="rosa" class="check" /><label
+                  for="rosa"
+                  >Rosa</label
+                >
+              </li>
+            </div>
+          </ul>
+          <p class="see_more">Ver todas as cores ↓</p>
+        </div>
+
+        <div class="sizes">
+          <h1>
+            Tamanho
+          </h1>
+
+          <div id="size">
+            <p class="border_off">P</p>
+            <p class="border_off">M</p>
+            <p class="border_off">G</p>
+            <p class="border_off">GG</p>
+            <p class="border_off">U</p>
+            <p class="border_off">36</p>
+            <p class="border_off">38</p>
+            <p class="border_off">40</p>
+            <p class="border_off">42</p>
+            <p class="border_off">44</p>
+            <p class="border_off">46</p>
+          </div>
+        </div>
+
+        <div class="prices">
+          <h1>
+            Faixa de preço
+          </h1>
+          <ul>
+            <li>
+              <input type="checkbox" name="first" class="check_price" />
+              <label for="first">de R$0 até R$50</label>
+            </li>
+            <li>
+              <input type="checkbox" name="second" class="check_price" /><label
+                for="second"
+                >de R$51 até R$150</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="third" class="check_price" /><label
+                for="third"
+                >de R$151 até R$300</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="forth" class="check_price" /><label
+                for="forth"
+                >de R$301 até R$500</label
+              >
+            </li>
+            <li>
+              <input type="checkbox" name="fifth" class="check_price" /><label
+                for="fifth"
+                >a partir de R$501</label
+              >
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <section>
+        <select id="order" onchange="update()">
+          <option value="" disabled hidden selected>Ordenar por:</option>
+          <option value="recent">Mais Recentes</option>
+          <option value="lower">Menor Preço</option>
+          <option value="higher">Maior Preço</option>
+        </select>
+
+        <ul class="cards" id="cards"></ul>
+
+        <button class="loadMore">CARREGAR MAIS</button>
+      </section>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+@media (max-width: 1320px) {
+  aside#menu {
+    display: none;
+  }
+
+  aside.responsive {
+    display: inline-block;
+  }
+
+  aside.responsive .cores ul {
+    list-style: none;
+  }
+
+  #order {
+    display: none;
+  }
+
+  .title-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
