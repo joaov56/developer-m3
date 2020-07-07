@@ -25,7 +25,7 @@ O projeto foi desenvolvido em HTML5 CSS3 E Javascript puro por ser um bônus
     $ Na pasta raiz haverá um arquivos chamado index.html, apenas abra e use
 
 ```
-#Contato
+# Contato
 
 Email: vitorjao56@gmail.com
 Telefone: (21)981396731
